@@ -1,0 +1,64 @@
+.song {
+    width: 100%;
+    display: inline-grid;
+    grid-auto-flow: column;
+    padding: 1rem;
+    grid-template-columns: 0.3fr 1fr 3fr 2fr 1fr;
+    grid-template-rows: auto;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.song:hover {
+    background: #f2f2f2;
+    /* cursor: pointer; */
+}
+
+.chart {
+    justify-self: start;
+    margin: auto;
+    font-size: 2rem;
+    padding-right: 0.5rem;
+}
+
+.song>img {
+    height: 100px;
+}
+
+.titles {
+    padding: 1rem;
+}
+
+.titles>small {
+    margin: 0;
+    color: #ccc;
+}
+
+a {
+    margin: auto;
+}
+
+a>img {
+    height: 50px;
+}
+
+/* star checkbox */
+
+.star {
+    visibility: hidden;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.star:before {
+    content: "\2605";
+    position: absolute;
+    color: gold;
+    visibility: visible;
+    margin: 1rem;
+}
+
+.star:checked:before {
+    content: "\2606";
+    position: absolute;
+}

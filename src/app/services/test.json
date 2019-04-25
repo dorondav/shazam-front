@@ -1,0 +1,24 @@
+
+    heading: {title: "Con Calma", subtitle: "Daddy Yankee Feat. Snow"
+}
+    images: {default: "https://images.shazam.com/coverart/t455443132-i1449106558_s400.jpg", blurred: "https://images.shazam.com/coverart/t455443132-i1449106558_s400b6.jpg", play: "https://images.shazam.com/coverart/t455443132-i1449106558_s400play.jpg"
+}
+    key: "455443132"
+    properties: {}
+    share: {subject: "Con Calma - Daddy Yankee Feat. Snow", text: "I used Shazam to discover Con Calma by Daddy Yankee Feat. Snow.", href: "https://www.shazam.com/track/455443132/con-calma", image: "https://images.shazam.com/coverart/t455443132-i1449106558_s400.jpg", twitter: "I used @Shazam to discover Con Calma by Daddy Yankee Feat. Snow.", …
+}
+    stores: {apple: {…
+    }, itunes: {…
+    }, claromusicasearch: {…
+    }
+}
+    streams: {}
+    type: "MUSIC"
+    url: "https://www.shazam.com/track/455443132/con-calma"
+    urlparams: {
+    {tracktitle
+    }: "Con+Calma",
+    {trackartist
+    }: "Daddy+Yankee"
+}
+    __proto__: Object

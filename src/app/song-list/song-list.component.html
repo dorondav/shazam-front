@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="col-xs-12">
+    <h1 class="siteTitle">Top 100 must played songs</h1>
+    <div class="songItem">
+      <app-songs *ngFor="let songEl of songArray; let i = index" [song]="songEl" [index]="i"></app-songs>
+
+    </div>
+  </div>
+</div>
